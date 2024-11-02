@@ -1,0 +1,15 @@
+马哈德.png
+size:4096,4096
+filter:Linear,Linear
+pma:true
+scale:0.6
+主体
+bounds:2,951,2581,2420
+围裙
+bounds:2040,2,959,1336
+rotate:180
+披风
+bounds:724,67,1903,1753
+闭眼
+bounds:2,3224,263,147
+offsets:2,7,267,157

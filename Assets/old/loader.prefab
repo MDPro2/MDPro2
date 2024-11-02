@@ -1,0 +1,413 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &137784
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 431276}
+  - component: {fileID: 11419100}
+  - component: {fileID: 1750404054}
+  - component: {fileID: 1750404055}
+  - component: {fileID: 1750404056}
+  - component: {fileID: 1750404057}
+  - component: {fileID: 1416058989}
+  - component: {fileID: 1178931058}
+  m_Layer: 0
+  m_Name: loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &431276
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137784}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11419100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28ef187da6853a748ad55671fa3e2b30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  main_camera: {fileID: 0}
+  light: {fileID: 0}
+  audio: {fileID: 0}
+  ui_back_ground_2d: {fileID: 0}
+  ui_windows_2d: {fileID: 0}
+  ui_main_2d: {fileID: 0}
+  ui_container_3d: {fileID: 0}
+  camera_container_3d: {fileID: 0}
+  ui_main_3d: {fileID: 0}
+  camera_main_3d: {fileID: 0}
+  ui_spine: {fileID: 0}
+  camera_back_ground_2d: {fileID: 0}
+  mod_simple_ngui_background_texture: {fileID: 0}
+  new_ui_cardDescription: {fileID: 0}
+  new_ui_search: {fileID: 0}
+  new_ui_cardList: {fileID: 0}
+  cardSelection: {fileID: 0}
+  new_ui_gameInfo: {fileID: 0}
+  cardDetail: {fileID: 0}
+  camera_windows_2d: {fileID: 0}
+  new_ui_menu: {fileID: 0}
+  remaster_deckManager: {fileID: 0}
+  new_ui_selectServer: {fileID: 0}
+  remaster_replayManager: {fileID: 0}
+  remaster_puzzleManager: {fileID: 0}
+  new_ui_aiRoom: {fileID: 137880, guid: 84c77dc37a31ebd41a28b714353a240a, type: 3}
+  animation: {fileID: 0}
+  deckManagerMono: {fileID: 0}
+  camera_main_2d: {fileID: 0}
+  new_ui_setting: {fileID: 0}
+  new_bar_room: {fileID: 0}
+  new_ui_searchDetailed: {fileID: 0}
+  new_ui_book: {fileID: 0}
+  character: {fileID: 0}
+  appearance: {fileID: 0}
+  hint: {fileID: 0}
+  duelCommentMe: {fileID: 0}
+  duelCommentOp: {fileID: 0}
+  deckDecoration: {fileID: 0}
+  mouseParticle: {fileID: 0}
+  face: {fileID: 11468716, guid: faf0ce5c46e971049a20f2597b5f6194, type: 3}
+  zhankai: {fileID: 8300000, guid: cab912f3009b43843b0a48ac3120c6ad, type: 3}
+  mod_winExplode: {fileID: 100000, guid: d0bd642121bd8624ea5f79bc25a0be69, type: 3}
+  mod_loseExplode: {fileID: 100000, guid: aeb251af760080f47baeb0265cc0e81f, type: 3}
+  mod_audio_effect: {fileID: 147400, guid: ef457fec355425b4fbbcaee0c3f8e24e, type: 3}
+  mod_ocgcore_card: {fileID: 100424, guid: 08fe3824ce347a4489d1818f98bd6989, type: 3}
+  mod_ocgcore_card_cloude: {fileID: 110566, guid: b25dd4ff3da664943ac6df33917760df,
+    type: 3}
+  mod_ocgcore_card_number_shower: {fileID: 166554, guid: e37612c8e3dbad54db0e428866080c5c,
+    type: 3}
+  mod_ocgcore_card_figure_line: {fileID: 183720, guid: 3114747afcca84e4d81360d5b19e5cab,
+    type: 3}
+  mod_ocgcore_hidden_button: {fileID: 166824, guid: 01f966aaa639fcb468309549dec9b2e6,
+    type: 3}
+  mod_ocgcore_coin: {fileID: 116782, guid: 46b964b7c9b416348a9b4f55c97a3b5e, type: 3}
+  mod_ocgcore_dice: {fileID: 192632, guid: 8ba8e306049b10a4dabc04533d2b59c3, type: 3}
+  mod_simple_quad: {fileID: 153178, guid: 7e032b6b717b6594ca1d7a2f7c279f0a, type: 3}
+  mod_simple_quad_star: {fileID: 153178, guid: c43f07fda3d6cef4a85a55ccbac48d4e, type: 3}
+  mod_simple_ngui_text: {fileID: 151012, guid: dd963d913f8da854093ea817838d4e6e, type: 3}
+  mod_ocgcore_number: {fileID: 174198, guid: f65670976d5ffc0469cafb02eb365281, type: 3}
+  mod_ocgcore_decoration_chain_selecting: {fileID: 113922, guid: 7f3c7b73f5951bc46b55a925c39e5100,
+    type: 3}
+  mod_ocgcore_decoration_card_selected: {fileID: 125802, guid: ea01e87d0549f9d4a9b683849a1a94ac,
+    type: 3}
+  mod_ocgcore_decoration_card_selecting: {fileID: 121074, guid: 7c6151eed97886444a7fe80b34799937,
+    type: 3}
+  mod_ocgcore_decoration_card_active: {fileID: 100012, guid: 9a7a05fb80cccd94d875499f64d8929f,
+    type: 3}
+  mod_ocgcore_decoration_spsummon: {fileID: 100006, guid: e0ece19172c71f04ea0bfb7e4865dbe9,
+    type: 3}
+  mod_ocgcore_decoration_thunder: {fileID: 185390, guid: ae40f05e43b39ac41bb85107368b3722,
+    type: 3}
+  mod_ocgcore_decoration_trap_activated: {fileID: 170606, guid: 60715b5bd03961046b6505cbf86eabae,
+    type: 3}
+  mod_ocgcore_decoration_magic_activated: {fileID: 135170, guid: e1020196a14a1954b920066c69ccad08,
+    type: 3}
+  mod_ocgcore_decoration_magic_zhuangbei: {fileID: 100018, guid: 2f28e66d12f2ab349b1d9b8ba5062c6e,
+    type: 3}
+  mod_ocgcore_decoration_removed: {fileID: 194634, guid: 576d137ab03133744a60dbc343d3adee,
+    type: 3}
+  mod_ocgcore_decoration_tograve: {fileID: 100000, guid: 897386993fd43bc4cb52b9fc6151b39d,
+    type: 3}
+  mod_ocgcore_decoration_card_setted: {fileID: 100006, guid: ab72d295ef12bc14d9e99b3daa8d84b7,
+    type: 3}
+  mod_ocgcore_blood: {fileID: 154148, guid: a1ab56112f979df4b8a38ce78f30bdee, type: 3}
+  mod_ocgcore_blood_screen: {fileID: 100004, guid: 4826a28e01211e64ab63e8aab65bf799,
+    type: 3}
+  mod_ocgcore_bs_atk_decoration: {fileID: 175090, guid: a3ab6c7363ebb2244958942a1cc2d847,
+    type: 3}
+  mod_ocgcore_cs_chaining: {fileID: 100010, guid: eb8a90c9a22c2544493ff578f226d994,
+    type: 3}
+  mod_ocgcore_cs_end: {fileID: 100012, guid: 9fb41bc61b608b149b5288295fea40aa, type: 3}
+  mod_ocgcore_cs_bomb: {fileID: 100000, guid: 3c0d69c6607bfe744b7da0ab6ff53b67, type: 3}
+  mod_ocgcore_cs_negated: {fileID: 197450, guid: 060605917b7456e48a265ed2f97acede,
+    type: 3}
+  mod_ocgcore_cs_mon_earth: {fileID: 188516, guid: 403bf6eadecab084d837692d99aa1726,
+    type: 3}
+  mod_ocgcore_cs_mon_water: {fileID: 188516, guid: b047e754820a2474b96b2dfee7860503,
+    type: 3}
+  mod_ocgcore_cs_mon_fire: {fileID: 188516, guid: bae56cf07e83c1149880df9ed7dadd83,
+    type: 3}
+  mod_ocgcore_cs_mon_wind: {fileID: 188516, guid: c3852330021b739439c28049b6fb2763,
+    type: 3}
+  mod_ocgcore_cs_mon_light: {fileID: 188516, guid: c837d314ee4b9db45a738925e4159c9f,
+    type: 3}
+  mod_ocgcore_cs_mon_dark: {fileID: 188516, guid: 204f43277a3085942a86f7275acc0177,
+    type: 3}
+  mod_ocgcore_ol_earth: {fileID: 198160, guid: 0bf96b39484b0c84882da34e17130819, type: 3}
+  mod_ocgcore_ol_water: {fileID: 126488, guid: 3dad3d277b4f1b44caa32fdf134d60dd, type: 3}
+  mod_ocgcore_ol_fire: {fileID: 106852, guid: 694d7f4e1b6aae34d9a75a59d952582a, type: 3}
+  mod_ocgcore_ol_wind: {fileID: 178198, guid: 127e39fbba512d546a78ebb15efcfa59, type: 3}
+  mod_ocgcore_ol_dark: {fileID: 177540, guid: f8c81e2a945e8684185b6651939f9fff, type: 3}
+  mod_ocgcore_ol_light: {fileID: 161610, guid: 38661326c4038fd488de6981c1d31186, type: 3}
+  mod_ocgcore_ss_p_idle_effect: {fileID: 113812, guid: 4eee7fd80ee672d4f8cdaa9179879637,
+    type: 3}
+  mod_ocgcore_ss_p_sum_effect: {fileID: 192278, guid: 4a755177320618248bc717e4dc49926b,
+    type: 3}
+  mod_ocgcore_ss_dark_hole: {fileID: 170424, guid: b8fc61e501987aa4d836d532a2003eaf,
+    type: 3}
+  mod_ocgcore_ss_link_mark: {fileID: 193842, guid: 31f237d5f58cc3d44b8c6f489981cdbe,
+    type: 3}
+  new_ui_cardOnSearchList: {fileID: 121738, guid: 2b6ccbb323c719640a5956255df6e60f,
+    type: 3}
+  new_ui_deckOnSearchList: {fileID: 226607535611210246, guid: 8bd4409cf2c140c45a923ac2f7302252,
+    type: 3}
+  new_ui_cardOnBook: {fileID: 7125120082291261313, guid: 549dcc9f8f837c94d88caabf96ac8628,
+    type: 3}
+  new_bar_editDeck: {fileID: 178988, guid: 765dbdb0e4818974a91597f4abb24ee1, type: 3}
+  new_bar_changeSide: {fileID: 122638, guid: 63e044f7c8ec2f941bdf744dfc74c476, type: 3}
+  new_bar_duel: {fileID: 123392, guid: 829bf6713f5afeb40840803e21e03092, type: 3}
+  new_bar_watchDuel: {fileID: 117332, guid: c31923f847d652f428563c70ae9126c0, type: 3}
+  new_bar_watchRecord: {fileID: 101550, guid: c2bfacfbd9e90a145a2e44e65731cecf, type: 3}
+  new_mod_cardInDeckManager: {fileID: 189694, guid: 6747c695cb6d93142b1f445a7896ea98,
+    type: 3}
+  new_mod_tableInDeckManager: {fileID: 124102, guid: 19e5c6880e40e3a4183c21c56af33744,
+    type: 3}
+  new_ui_handShower: {fileID: 124728, guid: dfb4acd85c948fa44975eab80c157b45, type: 3}
+  new_ui_textMesh: {fileID: 141456, guid: f2d3ae60f92063649838be32d3c95bcf, type: 3}
+  new_ui_superButton: {fileID: 175034, guid: d0dca316780477b4fab4ba9122bdbc5e, type: 3}
+  new_ui_superButtonTransparent: {fileID: 175034, guid: 1a9f43e6666f73d499018b0bc50fa87f,
+    type: 3}
+  new_ocgcore_field: {fileID: 110048, guid: b1633e26122bb4749a19a5c38826336b, type: 3}
+  new_ocgcore_chainCircle: {fileID: 139058, guid: d32a4ff301257644a9d5e19d14ba7010,
+    type: 3}
+  new_ocgcore_wait: {fileID: 192526, guid: ebe9fe8493cc48b4d8fc206976a5e897, type: 3}
+  remaster_tagRoom: {fileID: 154246, guid: 95580b5915bf1eb4eaf9b6b19a82f92d, type: 3}
+  remaster_room: {fileID: 154246, guid: 1718089c19d00d94a81b6b4ff32ff574, type: 3}
+  ES_1: {fileID: 152348, guid: 49504cab875642a4a89768cf637df4e0, type: 3}
+  ES_2_left: {fileID: 125396, guid: f4a725428b625f5459f4bcab2cbe0394, type: 3}
+  ES_2_right: {fileID: 125396, guid: c5cf793ce3857464eafa8aa15c1cfc06, type: 3}
+  ES_2Force_left: {fileID: 125396, guid: 11f76f7f188cfe943ab448d6c0563c10, type: 3}
+  ES_2Force_right: {fileID: 125396, guid: f687813851d9d9548b710c198d84db01, type: 3}
+  ES_3cancle_left: {fileID: 136638, guid: b40821dc1a2e1374981ee75e4c966c3f, type: 3}
+  ES_3cancle_right: {fileID: 136638, guid: dd732b939c6695a4c948d9f2bfc8d9f7, type: 3}
+  ES_Single_multiple_window: {fileID: 124974, guid: 973d36324e25edb4e937f0d46b67d978,
+    type: 3}
+  ES_Single_option: {fileID: 140558, guid: c67c5053dc1b3c14db4efc960bc8f57c, type: 3}
+  ES_multiple_option: {fileID: 160692, guid: 2f2ccdda83cade9439f7a615e3943a17, type: 3}
+  ES_input: {fileID: 169056, guid: dd31e15b57e5f354e94eb55af88bdaae, type: 3}
+  ES_position: {fileID: 197414, guid: ebf9fc604e38b7348be638f5deaa91db, type: 3}
+  ES_position3: {fileID: 197414, guid: fcbf44955a2f3ab4cbe011937cb34887, type: 3}
+  ES_Tp: {fileID: 139314, guid: 3cafe5fcc84bd994cb64aaf0fc2b4ec6, type: 3}
+  ES_Face: {fileID: 195852, guid: b8748dafca1e28c4d9e882fb8b3ff68b, type: 3}
+  ES_FS_left: {fileID: 150976, guid: 25df3b2c0cf488d4183459a571b44898, type: 3}
+  ES_FS_right: {fileID: 150976, guid: e371745b12d178b4ebe42e879820c9bb, type: 3}
+  Pro1_CardShower: {fileID: 166874, guid: 7b9a1520ac854164d80116f4c9cd49f4, type: 3}
+  Pro1_superCardShower: {fileID: 166874, guid: 9c687fe8a2487c34a857f20d148bce8e, type: 3}
+  Pro1_superCardShowerA: {fileID: 166874, guid: ed7ee42be6f2d9742ab3af7f921085ad,
+    type: 3}
+  New_arrow: {fileID: 139724, guid: 65847fa9d4d916b4993e5b907ab5262f, type: 3}
+  New_selectKuang: {fileID: 161760, guid: f72715be2fc64e64a98ae2101b915fd1, type: 3}
+  New_chainKuang: {fileID: 123774, guid: 00f2b7eecbee10a4b8c086ed3d7dc683, type: 3}
+  New_phase: {fileID: 108702, guid: 1150c172f7a9d634a824727a558df871, type: 3}
+  New_turn_me: {fileID: 108702, guid: b0bb6f7264088a749b7097859bf8ab9d, type: 3}
+  New_turn_op: {fileID: 108702, guid: 4b7bf3f54aac06e4390b04966ccf70f7, type: 3}
+  New_decker: {fileID: 156862, guid: 7b12ea4fd69f4184b97c15f847459773, type: 3}
+  New_winCaculator: {fileID: 150246, guid: 139670d91598eab40a849ab0d82b2d41, type: 3}
+  New_winCaculatorRecord: {fileID: 130352, guid: 23c629e0cb8735a4ea8ea3136526cc89,
+    type: 3}
+  New_ocgcore_placeSelector: {fileID: 114714, guid: 86a90872c7957c84db384fd3d2961da2,
+    type: 3}
+  bp_b: {fileID: 21300000, guid: afa3bce60a73cd84d98b62b6ccb24f03, type: 3}
+  bp_r: {fileID: 21300000, guid: a88e24ec2481cdc4dad7c48487f3a676, type: 3}
+  dp_b: {fileID: 21300000, guid: e9ad58216de6fa34b9ccbbc620ef42f5, type: 3}
+  dp_r: {fileID: 21300000, guid: af1710a5ae39b984ab3cdd76ad899a38, type: 3}
+  ep_b: {fileID: 21300000, guid: 4d178634fbaa65749be9ad82f0ca36bb, type: 3}
+  ep_r: {fileID: 21300000, guid: fbc2a16b2f559df4e82cf63f0e12ad3d, type: 3}
+  mp1_b: {fileID: 21300000, guid: dfdcedba021f4614994932ec43f79ba4, type: 3}
+  mp1_r: {fileID: 21300000, guid: 103287d3e57e82b4799669bd68807f96, type: 3}
+  mp2_b: {fileID: 21300000, guid: 21012277e912d194281dc1a1e73e403d, type: 3}
+  mp2_r: {fileID: 21300000, guid: a917391e45c71004c9a899e18f5ab0f3, type: 3}
+  tc_b: {fileID: 21300000, guid: 939c67fe06dff9d4fb965ec7ac338895, type: 3}
+  tc_r: {fileID: 21300000, guid: fa9fb63c245427948b99aa04adb72765, type: 3}
+  sp_b: {fileID: 21300000, guid: 3083abc1af63b674e88abf3d8f038b09, type: 3}
+  sp_r: {fileID: 21300000, guid: d9c4f881ec4602548b8fd5cde4014a23, type: 3}
+  rs: {fileID: 21300000, guid: c7ba44901dfbcf443a5a793d84cc388e, type: 3}
+  ts: {fileID: 21300000, guid: 79d532c3b1e83024b9a405918c3c0867, type: 3}
+  cards_count_left: {fileID: 883315327859435599, guid: a8253ea6b4350b642aef59fd0deca30e,
+    type: 3}
+  cards_count_right: {fileID: 8461890053649620568, guid: 8f2b8f3ff4b9b5b49b0c9e525526872c,
+    type: 3}
+  ai: {fileID: 3734311050755529347, guid: 02213f7371160ff44866d13188563ebc, type: 3}
+  astral: {fileID: 6832324874625842296, guid: 4ed433edb308eb244b90d9ef9dc1f942, type: 3}
+  blueangel: {fileID: 2675639142681264310, guid: facc06244b681504fafca26c6594bf47,
+    type: 3}
+  geese: {fileID: 2189461768273713416, guid: 3baadce4bbb498e439fc0604e2f2970d, type: 3}
+  gongenzaka: {fileID: 5289879258232012980, guid: 85adf4e6fd459504180fbb718942db69,
+    type: 3}
+  yuzu: {fileID: 2765389078224800508, guid: 2398f3d825f1fa24194d32426a7b2023, type: 3}
+  yusei: {fileID: 3313263488803171182, guid: 0788bb4682f84b2488e9a751cac90bf2, type: 3}
+  haga: {fileID: 8307237953823265813, guid: 9e292d5f69ce0984e9df20bfead356cc, type: 3}
+  aki: {fileID: 5082833333353371669, guid: 10af3f216820fdc428563dc1c3253f42, type: 3}
+  jack: {fileID: 8457262296196904785, guid: b33c9abfdd4801f4fa6c176c5ee73083, type: 3}
+  jyonochi: {fileID: 5558167432209975535, guid: b2e84fac5a7cce2418a45d7f9fd3e796,
+    type: 3}
+  kaiba: {fileID: 3217239441538586280, guid: 00e4b7a645ba32e4b95d05afbf9d7283, type: 3}
+  kiryu: {fileID: 216756912099953246, guid: d6d05cd166d315541b5634312149b136, type: 3}
+  mai: {fileID: 8508859483016962591, guid: 47f7a7e39015e5446b1067e5698cbe0d, type: 3}
+  manjyome: {fileID: 5799187889087890322, guid: 212558d2085f5954d930ed495787f4da,
+    type: 3}
+  syo: {fileID: 640364038418483991, guid: c75b03adf18075f4c8d04e71e3926efd, type: 3}
+  playmaker: {fileID: 269640181695089776, guid: f6174ea65001e4a4dae21bc1adad3a2a,
+    type: 3}
+  revolver: {fileID: 6039510557759005162, guid: fcfa30d7d87a7814fb5138b58404476d,
+    type: 3}
+  rua: {fileID: 567606079837631844, guid: 7103d5257e6cf2e4eac4caf9762d6b1a, type: 3}
+  ryoga: {fileID: 7688852600613873512, guid: 055e6d1159ec4e14c9b05e59914e3621, type: 3}
+  yuya: {fileID: 6717453066729452608, guid: c494d6d16475b0344a454f85cb356eda, type: 3}
+  sawatari: {fileID: 225749948445941662, guid: 81a1a45ad4b3e73408e27209c3a3db84, type: 3}
+  kaito: {fileID: 3020569643694190363, guid: 4005c7f49b13b7e48a05994a83a4b99f, type: 3}
+  asuka: {fileID: 1361242264755744656, guid: c91cae666aa05c34e989b6e5a263e951, type: 3}
+  yuma: {fileID: 3977379452053932057, guid: 58b05cd1d074ece40a49c1dc84134dc7, type: 3}
+  yugi: {fileID: 182617952484137887, guid: 135b07af1feccf04a9a87628d8846500, type: 3}
+  judai: {fileID: 4645085388093850484, guid: dc2384b138b606f438fe4f1c05a4cc50, type: 3}
+  four: {fileID: 6688828754536187808, guid: e6cfb8547ac863840bdcbfb3110dd365, type: 3}
+  guide: {fileID: 141749884309241418, guid: 5dd7043d50cd3e844af28478dec9633d, type: 3}
+  buttonFrameGreen: {fileID: 21300000, guid: 0edc1fb1659eb1942a0381c9df950e26, type: 2}
+  buttonFrameRed: {fileID: 21300000, guid: 1f1d96bc1fd8b8544a974b490c595138, type: 2}
+  buttonFrameGreenHover: {fileID: 21300000, guid: 9fd68651223e14e438f425a757cd7681,
+    type: 2}
+  buttonFrameRedHover: {fileID: 21300000, guid: 0ca2a6e373dcc9f4c826470663b1ddd6,
+    type: 2}
+  targetFrame: 144
+  me_HP: 8000
+--- !u!114 &1750404054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e560dc1b6adfdab43b4584a258548976, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timescale: 1
+--- !u!114 &1750404055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60d064d817bdbdc4cba087f7fee75f3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1750404056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 859f8b82ce12a1f409b6febb4b73adcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameNear: {fileID: 1691367184456977, guid: b1f0618987c6d844097ed742968998a7, type: 3}
+  nameFar: {fileID: 1938907524754272, guid: 51640e7f29b66eb489b7f75c361c0f06, type: 3}
+  test: 0
+  testSpineID: 65741786
+--- !u!114 &1750404057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d67dadfa3b2f8942a6c8422ff17505f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1416058989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 407f348b6440d6b4ea7a9b232da304d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  summonLink01_01TL: {fileID: 11400000, guid: 289efaf37d224ef4aa39707c1a0be882, type: 2}
+  summonLink02_01TL: {fileID: 11400000, guid: 341ca169b33607643b8523ad28efb0fd, type: 2}
+  summonLink03_01TL: {fileID: 11400000, guid: 2d70cdcb49a48e245b3a9369f502e85c, type: 2}
+  summonLinkmain01TL: {fileID: 11400000, guid: 414be1156277f474cae6302667012ab0, type: 2}
+  summonLinkmain02TL: {fileID: 11400000, guid: eccc867ef44f2624c86d9a5b29635184, type: 2}
+  summonLinkmain03TL: {fileID: 11400000, guid: f644b03ec166b924ebd5b2ddfe716dd2, type: 2}
+  linkTrailIn01TL: {fileID: 11400000, guid: 44a1123a9b1b3554b9718b995fd4c3ef, type: 2}
+  linkTrailIn02TL: {fileID: 11400000, guid: 0d8db27f3fc9e9042aa36fa109a470fe, type: 2}
+  linkTrailIn03TL: {fileID: 11400000, guid: a7c8a526741da2f4191220afa1249925, type: 2}
+  summonLinkpostLinkTL: {fileID: 11400000, guid: a866ec44b7db0644293696dfe660ee6b,
+    type: 2}
+  summonSynchroPostSynchroTL: {fileID: 11400000, guid: 64396772067d7fa4c940833d43fd4771,
+    type: 2}
+  summonSynchro01TL: {fileID: 11400000, guid: 0e78ca7f93217be40889a676c5c7f56b, type: 2}
+  summonXYZ03_01TL: {fileID: 11400000, guid: bcdb5ae67145d9b4e8b044618845b8ad, type: 2}
+  summonXYZexplosion01TL: {fileID: 11400000, guid: e58254f99e712e342abd5d5dee15057f,
+    type: 2}
+  summonXYZGalaxy01TL: {fileID: 11400000, guid: 7bba1939db216734db1f1d27f87263c9,
+    type: 2}
+  summonXYZpostXYZTL: {fileID: 11400000, guid: 06568a0fb448bf94da36d39c1782388c, type: 2}
+  xyzTrailIn03TL: {fileID: 11400000, guid: 37abe887a8311de40a1ccc0d6845d691, type: 2}
+  LPendulumNum00: {fileID: 2800000, guid: ba79bac571baecb429d973d2a4f246bc, type: 3}
+  LPendulumNum01: {fileID: 2800000, guid: dde1196e975502e45b5c79a54834c455, type: 3}
+  LPendulumNum02: {fileID: 2800000, guid: 5f3d2317b88c1014fa62f6531a8d9902, type: 3}
+  LPendulumNum03: {fileID: 2800000, guid: 28f74d1fd8f2a464b929ea8f00d793fb, type: 3}
+  LPendulumNum04: {fileID: 2800000, guid: b6bd6067d80c3404b946c6f8bb3228d8, type: 3}
+  LPendulumNum05: {fileID: 2800000, guid: 8ed12c9b90691234bbe0bf001b14819b, type: 3}
+  LPendulumNum06: {fileID: 2800000, guid: e61977b93616da04d85caedb4a29be9e, type: 3}
+  LPendulumNum07: {fileID: 2800000, guid: b660a6851dae03447813222bf4300d7e, type: 3}
+  LPendulumNum08: {fileID: 2800000, guid: a7ae82869fb22f541abc67db893a467e, type: 3}
+  LPendulumNum09: {fileID: 2800000, guid: 2fd934cee72f2a444aa8fcd7d848501b, type: 3}
+  RPendulumNum00: {fileID: 2800000, guid: fc2ac4cb3159c2e458ab941f4947ce0b, type: 3}
+  RPendulumNum01: {fileID: 2800000, guid: 5abf7115f7eb5ff48a9845eec38d54b5, type: 3}
+  RPendulumNum02: {fileID: 2800000, guid: d83aa69d8374c2c4f9808eff5e243832, type: 3}
+  RPendulumNum03: {fileID: 2800000, guid: 7c9e67ec9953d70408bad9a192e39008, type: 3}
+  RPendulumNum04: {fileID: 2800000, guid: bde69db757e8def458ad62886d902703, type: 3}
+  RPendulumNum05: {fileID: 2800000, guid: 9336eb39ceb24d34a914a0209e6c5f2d, type: 3}
+  RPendulumNum06: {fileID: 2800000, guid: af9946318be53644f8f56a65c7786f93, type: 3}
+  RPendulumNum07: {fileID: 2800000, guid: 8c205138bc4f14b4bb4696c8ef449fb3, type: 3}
+  RPendulumNum08: {fileID: 2800000, guid: 88775346731c1474fbf89b3c6d9a936a, type: 3}
+  RPendulumNum09: {fileID: 2800000, guid: e467c97a6f9e43a4fb9d7db5201cb23d, type: 3}
+--- !u!114 &1178931058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137784}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18e9810a311c9f44588547c58b542a04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -1,0 +1,14 @@
+元素英雄地球侠.png
+size:4096,4096
+filter:Linear,Linear
+pma:true
+scale:0.5
+earth_4k_stock_by_hameed_db5roja
+bounds:2,1717,2338,2341
+offsets:1,1,2340,2343
+右手
+bounds:2,1263,347,452
+图层 4
+bounds:2247,473,1811,2361
+左手
+bounds:2,814,342,450

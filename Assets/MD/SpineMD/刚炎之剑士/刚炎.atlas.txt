@@ -1,0 +1,29 @@
+刚炎.png
+size:2048,1024
+filter:Linear,Linear
+pma:true
+001 shoulder
+bounds:1315,440,136,129
+offsets:1,1,138,133
+002 L hand
+bounds:137,67,308,536
+rotate:90
+003 head
+bounds:1015,440,346,298
+offsets:1,1,348,300
+rotate:90
+004 R hand
+bounds:731,284,282,502
+005 body
+bounds:2,346,727,440
+006 tail L
+bounds:675,2,280,384
+rotate:90
+007 tail R
+bounds:1263,20,139,189
+008 tail U
+bounds:1263,211,226,227
+009 R leg
+bounds:2,182,131,162
+010 L leg
+bounds:1061,39,200,399

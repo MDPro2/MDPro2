@@ -1,0 +1,7 @@
+海洋新宇侠.png
+size:4096,4096
+filter:Linear,Linear
+pma:true
+scale:0.9
+图层 1
+bounds:2,2,3824,3695

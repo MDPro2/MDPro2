@@ -1,0 +1,14 @@
+元素英雄 大龙卷.png
+size:4096,2048
+filter:Linear,Linear
+pma:true
+图层 5
+bounds:2,717,1794,1237
+图层 6
+bounds:1773,537,1025,1180
+rotate:180
+图层 6 拷贝
+bounds:2,2,1094,2306
+rotate:90
+图层 7
+bounds:1911,130,955,529

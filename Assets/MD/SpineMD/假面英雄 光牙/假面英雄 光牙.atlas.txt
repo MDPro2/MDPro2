@@ -1,0 +1,29 @@
+假面英雄 光牙.png
+size:4096,2048
+filter:Linear,Linear
+pma:true
+scale:0.6
+上肢
+bounds:2,10,1489,2036
+右刺
+bounds:2355,1310,736,1171
+rotate:90
+右腿
+bounds:946,2,944,2174
+rotate:270
+左刺
+bounds:1493,968,860,1078
+offsets:1,1,862,1079
+左手
+bounds:2,1374,824,592
+左腿
+bounds:3096,77,975,1667
+颜色填充 1
+bounds:207,1918,148,128
+offsets:2,4,151,133
+颜色填充 1 拷贝
+bounds:459,1717,354,329
+offsets:61,37,463,403
+颜色填充 1 拷贝 2
+bounds:2,1393,220,244
+offsets:3,7,228,255

@@ -1,0 +1,13 @@
+新宇侠.png
+size:2048,2048
+filter:Linear,Linear
+pma:true
+scale:0.7
+右手
+bounds:448,37,384,678
+左手
+bounds:2,925,188,547
+左肩膀
+bounds:286,1609,244,249
+躯干
+bounds:2,2,788,1856

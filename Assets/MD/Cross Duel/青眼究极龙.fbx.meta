@@ -1,0 +1,2420 @@
+fileFormatVersion: 2
+guid: 60a33ef01b57b104297a320606cbce9f
+ModelImporter:
+  serializedVersion: 21100
+  internalIDToNameTable:
+  - first:
+      74: -4880970101520165889
+    second: 04386_01J|04386_01J_a
+  - first:
+      74: -5089933541189437293
+    second: 04386_01J|04386_01J_b
+  - first:
+      74: 3214779194617598107
+    second: 04386_01J|04386_01J_b_down
+  - first:
+      74: 1024610363311640120
+    second: 04386_01J|04386_01J_c
+  - first:
+      74: 2034292766348959523
+    second: 04386_01J|04386_01J_f
+  - first:
+      74: 2216771469558749121
+    second: 04386_01J|04386_01J_g
+  - first:
+      74: 4447847759936684326
+    second: 04386_01J|04386_01J_h
+  - first:
+      74: 923109733798849184
+    second: 04386_01J|04386_01J_h_down
+  - first:
+      74: 5377878398966531401
+    second: 04386_01J|04386_01J_i
+  - first:
+      74: -8572555883067108029
+    second: 04386_01J|04386_01J_j
+  - first:
+      74: 3481479880240900716
+    second: 04386_01J|04386_01J_k
+  - first:
+      74: -1979133520866390647
+    second: 04386_01J|04386_01J_k_down
+  - first:
+      74: -958054920825974047
+    second: 04386_01J|04386_01J_l
+  - first:
+      74: -3136978130661644185
+    second: 04386_01J|04386_01J_l_down
+  - first:
+      74: 913631286208672905
+    second: 04386_01J|04386_01J_m
+  - first:
+      74: 1446710371635330357
+    second: 04386_01J|04386_01J_m_down
+  - first:
+      74: -1447259136673350904
+    second: 04386_01J|04386_01J_n
+  - first:
+      74: 8519374325474989197
+    second: 04386_01J|04386_01J_n_down
+  - first:
+      74: 3981486662341448377
+    second: 04386_01J|04386_01J_o
+  - first:
+      74: -6454358149682696410
+    second: 04386_01J|04386_01J_o_down
+  - first:
+      74: 425585451623477162
+    second: 04386_01J|04386_01J_y
+  - first:
+      74: 2552256426938625478
+    second: 04386_01J|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: 1514648298214328196
+    second: 04386_01J|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: 87313769068846131
+    second: 04386_01J|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: 5124991853923473360
+    second: 04386_01J|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 2858568628539040055
+    second: 04386_01J|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: 3759682980059597448
+    second: 04386_01J|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: 7299776870182358983
+    second: 04386_01J|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: 1509701912636231934
+    second: 04386_01J|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: -57970155847692620
+    second: 04386_01J|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: -4827016505137363196
+    second: 04386_01J|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: -103136851567399680
+    second: 04386_01J|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: 2329430472295713076
+    second: 04386_01J|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: -6660889958949597220
+    second: 04386_01J|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: -2829722427489330776
+    second: 04386_01J|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: 4792226546501534556
+    second: 04386_01J|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: 7454376604154368917
+    second: 04386_01J|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: 5333889513277638696
+    second: 04386_01J|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: 8387697493125813733
+    second: 04386_01J|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: -5190519465237225779
+    second: 04386_01J|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: 7306363971073390947
+    second: 04386_01J|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: -1120254327802001870
+    second: 04386_01J|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: 7133383175743590191
+    second: 04386_01J|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: 8940022345465719050
+    second: 04386_01J|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: -8849380866782056346
+    second: 04386_01J|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: -8112674664462354662
+    second: 04386_01J|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: 1727462747348843119
+    second: 04386_01J|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: 2625771484764124619
+    second: 04386_01J|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: -4069498062144973703
+    second: EFF_locator01|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: 2035711681583525796
+    second: EFF_locator01|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: 454923838289727486
+    second: EFF_locator01|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: -9047223794820267032
+    second: EFF_locator01|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 2226117302146769957
+    second: EFF_locator01|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: -1506239549051675634
+    second: EFF_locator01|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: -3879676298789257886
+    second: EFF_locator01|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: 7786147925937043962
+    second: EFF_locator01|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: -8384081969453768245
+    second: EFF_locator01|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: 3470980451424650382
+    second: EFF_locator01|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: -2321957793408207105
+    second: EFF_locator01|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: 4349507952722908500
+    second: EFF_locator01|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: -8021504142471734210
+    second: EFF_locator01|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: -1942254034183537951
+    second: EFF_locator01|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: -4813546898152338881
+    second: EFF_locator01|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: 1036449130449299164
+    second: EFF_locator01|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: -634700931443305562
+    second: EFF_locator01|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: -1574575308259383737
+    second: EFF_locator01|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: 5173530667768919191
+    second: EFF_locator01|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: 3270488101928498740
+    second: EFF_locator01|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: -4695551974514968672
+    second: EFF_locator01|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: -7262119060209855746
+    second: EFF_locator01|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: -4255566332124386
+    second: EFF_locator01|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: 4248465159643268391
+    second: EFF_locator01|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: 6844636007047330201
+    second: EFF_locator01|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: 5764037103253017238
+    second: EFF_locator01|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: 6295976268444143482
+    second: EFF_locator01|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: 6626125840403824272
+    second: EFF_locator02|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: 5565080136849155706
+    second: EFF_locator02|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: 7048076591417737071
+    second: EFF_locator02|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: 8964797254236267177
+    second: EFF_locator02|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 4737333472118206536
+    second: EFF_locator02|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: -2046968270700355256
+    second: EFF_locator02|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: 2759559725569876150
+    second: EFF_locator02|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: 8122908026455774475
+    second: EFF_locator02|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: 3782076289846060111
+    second: EFF_locator02|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: -2716518449772511127
+    second: EFF_locator02|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: 8635076945427157958
+    second: EFF_locator02|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: -6074423127798773371
+    second: EFF_locator02|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: -8732613706713420209
+    second: EFF_locator02|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: -4115648910863981031
+    second: EFF_locator02|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: 4823077115850747563
+    second: EFF_locator02|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: 1309248383006948246
+    second: EFF_locator02|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: -9082969173030170801
+    second: EFF_locator02|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: -6226143748564957742
+    second: EFF_locator02|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: -1399597957274001576
+    second: EFF_locator02|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: 5824219403969630641
+    second: EFF_locator02|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: -2734476229822361547
+    second: EFF_locator02|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: 4422878449845970362
+    second: EFF_locator02|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: -5066996244425332140
+    second: EFF_locator02|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: 4558705903838263308
+    second: EFF_locator02|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: -8673077044928509567
+    second: EFF_locator02|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: -2517714950401800799
+    second: EFF_locator02|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: -6215807691844633812
+    second: EFF_locator02|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: 19297109674365791
+    second: EFF_locator03|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: -8420741119563310048
+    second: EFF_locator03|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: 1121068665766511648
+    second: EFF_locator03|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: -2703839908147776348
+    second: EFF_locator03|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 786512973656919969
+    second: EFF_locator03|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: 2628622658134359636
+    second: EFF_locator03|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: -8046967523688752822
+    second: EFF_locator03|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: -7820128389301583662
+    second: EFF_locator03|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: 2411421001916870271
+    second: EFF_locator03|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: 4926228886093625139
+    second: EFF_locator03|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: -2220460134599126960
+    second: EFF_locator03|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: 3040508082529203553
+    second: EFF_locator03|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: 7924026098863550672
+    second: EFF_locator03|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: -1034390702185708230
+    second: EFF_locator03|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: -4627317587853585238
+    second: EFF_locator03|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: 6901549042563657118
+    second: EFF_locator03|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: 6417609379505618043
+    second: EFF_locator03|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: 1736063126717631474
+    second: EFF_locator03|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: -6750297287083472552
+    second: EFF_locator03|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: 2798918658397753796
+    second: EFF_locator03|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: 7780686876544199098
+    second: EFF_locator03|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: 1832516094613948756
+    second: EFF_locator03|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: 1689089952888793669
+    second: EFF_locator03|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: -2675505508458385330
+    second: EFF_locator03|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: -678119054230952103
+    second: EFF_locator03|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: -3150808458783374732
+    second: EFF_locator03|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: -3687069805305404375
+    second: EFF_locator03|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: 4516676686848012203
+    second: EFF_locator04|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: -5525406686462189423
+    second: EFF_locator04|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: 8865568449886036601
+    second: EFF_locator04|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: -6481936055577270133
+    second: EFF_locator04|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 3776052518920027832
+    second: EFF_locator04|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: -2858032706244810693
+    second: EFF_locator04|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: 1932146255626747080
+    second: EFF_locator04|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: 5831620776631961524
+    second: EFF_locator04|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: 2343839654569640697
+    second: EFF_locator04|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: 2404754116373256048
+    second: EFF_locator04|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: -8451261244484017201
+    second: EFF_locator04|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: -455703790538565160
+    second: EFF_locator04|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: -6510455746207433901
+    second: EFF_locator04|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: 679460068092076185
+    second: EFF_locator04|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: -4592089460625304944
+    second: EFF_locator04|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: 3751048990406810982
+    second: EFF_locator04|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: 6730287374442985683
+    second: EFF_locator04|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: 8722742154995394162
+    second: EFF_locator04|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: -8713681992218963251
+    second: EFF_locator04|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: -1403158290397876304
+    second: EFF_locator04|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: -8335339661240395837
+    second: EFF_locator04|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: 8956583739207421244
+    second: EFF_locator04|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: -6643273478714891439
+    second: EFF_locator04|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: -8500770941399221557
+    second: EFF_locator04|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: -809634720637893195
+    second: EFF_locator04|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: -3339948963989422248
+    second: EFF_locator04|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: 693014126772697698
+    second: EFF_locator04|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: 2449145634477913345
+    second: EFF_locator05|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: -179880385135196209
+    second: EFF_locator05|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: 6755636752467367360
+    second: EFF_locator05|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: -8470708749125862270
+    second: EFF_locator05|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: -6642113675302624161
+    second: EFF_locator05|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: -3121756904293070691
+    second: EFF_locator05|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: 3249454728387785514
+    second: EFF_locator05|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: 7424985801098532798
+    second: EFF_locator05|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: 6629364958316962472
+    second: EFF_locator05|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: 5303397957968225903
+    second: EFF_locator05|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: -4402728215204007907
+    second: EFF_locator05|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: 4676031114560677608
+    second: EFF_locator05|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: 3982626464673915514
+    second: EFF_locator05|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: -3096178057400071551
+    second: EFF_locator05|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: -5976061196249033831
+    second: EFF_locator05|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: 4779558130808731716
+    second: EFF_locator05|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: 1268749335293640950
+    second: EFF_locator05|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: -2787936969031273907
+    second: EFF_locator05|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: -7569480324289979351
+    second: EFF_locator05|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: -374317296441434917
+    second: EFF_locator05|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: -3330970009640675618
+    second: EFF_locator05|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: -5614547771002025107
+    second: EFF_locator05|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: 6977306511067231729
+    second: EFF_locator05|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: -6250192324199291576
+    second: EFF_locator05|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: -8388588456905848205
+    second: EFF_locator05|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: -4148948179049919813
+    second: EFF_locator05|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: -6011585004289812784
+    second: EFF_locator05|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: 6297288833904763003
+    second: EFF_locator06|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: 3159925519295665655
+    second: EFF_locator06|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: -8010163255651327031
+    second: EFF_locator06|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: 4002952864446410056
+    second: EFF_locator06|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 7331781626757805883
+    second: EFF_locator06|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: 6875219240383518672
+    second: EFF_locator06|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: 5674951460738902732
+    second: EFF_locator06|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: 3426582361716807829
+    second: EFF_locator06|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: 8403786490691901881
+    second: EFF_locator06|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: 2635078248466857443
+    second: EFF_locator06|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: 4359657779312584306
+    second: EFF_locator06|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: 638924458710656784
+    second: EFF_locator06|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: -2600311065096221152
+    second: EFF_locator06|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: 9145950183528984846
+    second: EFF_locator06|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: -2284388196460572135
+    second: EFF_locator06|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: 785408657239434683
+    second: EFF_locator06|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: 6198289492774158942
+    second: EFF_locator06|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: 557091744187500386
+    second: EFF_locator06|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: 1754257004596548557
+    second: EFF_locator06|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: 1873918191394386785
+    second: EFF_locator06|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: -4369172026015083524
+    second: EFF_locator06|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: 2394069967062453003
+    second: EFF_locator06|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: 277243004310010987
+    second: EFF_locator06|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: 8453311466670406046
+    second: EFF_locator06|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: 4245511055805777343
+    second: EFF_locator06|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: -4637868585888814455
+    second: EFF_locator06|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: -4346600890331163213
+    second: EFF_locator06|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: -6645357721200364434
+    second: EFF_locator07|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: 4344359192565223838
+    second: EFF_locator07|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: -239811009882901804
+    second: EFF_locator07|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: 7466102545212018493
+    second: EFF_locator07|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 4087752995118679324
+    second: EFF_locator07|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: -2477430175301590998
+    second: EFF_locator07|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: -8920556553083307483
+    second: EFF_locator07|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: -474218989468695151
+    second: EFF_locator07|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: 6443156962925702209
+    second: EFF_locator07|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: -3848339742574307896
+    second: EFF_locator07|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: 4557080080988884761
+    second: EFF_locator07|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: -4892071710167253822
+    second: EFF_locator07|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: 8155318239307796216
+    second: EFF_locator07|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: 936014779585947889
+    second: EFF_locator07|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: 5229786028438529641
+    second: EFF_locator07|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: -1289726823446227142
+    second: EFF_locator07|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: 7703062142209619766
+    second: EFF_locator07|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: -7775427689147817608
+    second: EFF_locator07|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: 242721682777195070
+    second: EFF_locator07|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: -6495658343310942224
+    second: EFF_locator07|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: 1574574387589322308
+    second: EFF_locator07|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: 2558044635851584879
+    second: EFF_locator07|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: 2552006042948606638
+    second: EFF_locator07|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: 4220075892583594962
+    second: EFF_locator07|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: 1269418403043998027
+    second: EFF_locator07|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: 2705408268809990290
+    second: EFF_locator07|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: 4525321772961949421
+    second: EFF_locator07|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: 300656120722037749
+    second: EFF_locator08|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: -4157770852111726740
+    second: EFF_locator08|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: -7398108890598805740
+    second: EFF_locator08|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: -6695519483019812093
+    second: EFF_locator08|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 8438574933134407298
+    second: EFF_locator08|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: -6150240204162925399
+    second: EFF_locator08|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: -7606435415256337346
+    second: EFF_locator08|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: -2638064713054647324
+    second: EFF_locator08|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: 3076898533542046395
+    second: EFF_locator08|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: -6870518792598012795
+    second: EFF_locator08|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: -5815827910009551092
+    second: EFF_locator08|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: -8279845286863529849
+    second: EFF_locator08|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: -1740639777390287997
+    second: EFF_locator08|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: 2450732029447340443
+    second: EFF_locator08|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: -2410135541941314769
+    second: EFF_locator08|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: -2684138709221176610
+    second: EFF_locator08|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: 5400429168050107357
+    second: EFF_locator08|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: -674442536470182461
+    second: EFF_locator08|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: -1696147007444065146
+    second: EFF_locator08|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: -5165581136957211275
+    second: EFF_locator08|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: -273065839011984662
+    second: EFF_locator08|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: 7261413779399498516
+    second: EFF_locator08|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: -6900481532470473766
+    second: EFF_locator08|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: 7079027950617133388
+    second: EFF_locator08|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: 6442272485273716130
+    second: EFF_locator08|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: -7264652158521894296
+    second: EFF_locator08|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: -4734490391687031646
+    second: EFF_locator08|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: -8436209370423787163
+    second: EFF_locator09|EFF_locator01|04386_01J_i|Base Layer
+  - first:
+      74: -7590660182805355201
+    second: EFF_locator09|EFF_locator01|04386_01J_m_down|Base Layer
+  - first:
+      74: 757542363505354535
+    second: EFF_locator09|EFF_locator01|04386_01J_y|Base Layer
+  - first:
+      74: 2003123681139068312
+    second: EFF_locator09|EFF_locator02|04386_01J_i|Base Layer
+  - first:
+      74: 228070343095022625
+    second: EFF_locator09|EFF_locator02|04386_01J_m_down|Base Layer
+  - first:
+      74: -3008504589398783025
+    second: EFF_locator09|EFF_locator02|04386_01J_y|Base Layer
+  - first:
+      74: -673976159769535981
+    second: EFF_locator09|EFF_locator03|04386_01J_i|Base Layer
+  - first:
+      74: -7906164806499110223
+    second: EFF_locator09|EFF_locator03|04386_01J_m_down|Base Layer
+  - first:
+      74: -6494463855447073197
+    second: EFF_locator09|EFF_locator03|04386_01J_y|Base Layer
+  - first:
+      74: 3963508455023982698
+    second: EFF_locator09|EFF_locator04|04386_01J_i|Base Layer
+  - first:
+      74: 8539306193038232323
+    second: EFF_locator09|EFF_locator04|04386_01J_m_down|Base Layer
+  - first:
+      74: 8823232637605185099
+    second: EFF_locator09|EFF_locator04|04386_01J_y|Base Layer
+  - first:
+      74: -7718389025069353811
+    second: EFF_locator09|EFF_locator05|04386_01J_i|Base Layer
+  - first:
+      74: 4383794014918566060
+    second: EFF_locator09|EFF_locator05|04386_01J_m_down|Base Layer
+  - first:
+      74: -8654351086270440217
+    second: EFF_locator09|EFF_locator05|04386_01J_y|Base Layer
+  - first:
+      74: -4220034245059634867
+    second: EFF_locator09|EFF_locator06|04386_01J_i|Base Layer
+  - first:
+      74: 9086039609288934168
+    second: EFF_locator09|EFF_locator06|04386_01J_m_down|Base Layer
+  - first:
+      74: -3678197230843377818
+    second: EFF_locator09|EFF_locator06|04386_01J_y|Base Layer
+  - first:
+      74: -975975306464917443
+    second: EFF_locator09|EFF_locator07|04386_01J_i|Base Layer
+  - first:
+      74: 5975070580465198029
+    second: EFF_locator09|EFF_locator07|04386_01J_m_down|Base Layer
+  - first:
+      74: -2482338593320874462
+    second: EFF_locator09|EFF_locator07|04386_01J_y|Base Layer
+  - first:
+      74: -7492593272896349504
+    second: EFF_locator09|EFF_locator08|04386_01J_i|Base Layer
+  - first:
+      74: -4618461946377483523
+    second: EFF_locator09|EFF_locator08|04386_01J_m_down|Base Layer
+  - first:
+      74: -1093761177498407722
+    second: EFF_locator09|EFF_locator08|04386_01J_y|Base Layer
+  - first:
+      74: 4179601120220024556
+    second: EFF_locator09|EFF_locator09|04386_01J_i|Base Layer
+  - first:
+      74: 8639258807935638805
+    second: EFF_locator09|EFF_locator09|04386_01J_m_down|Base Layer
+  - first:
+      74: -2363675647288630419
+    second: EFF_locator09|EFF_locator09|04386_01J_y|Base Layer
+  - first:
+      74: 5035881060940919358
+    second: 04386_01J|Action
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_a
+      takeName: 04386_01J|04386_01J_a
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 109
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.10084033
+        functionName: PlayAnimationEventSe
+        data: SE_EFF_04386_S
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_b
+      takeName: 04386_01J|04386_01J_b
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 151
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_b_down
+      takeName: 04386_01J|04386_01J_b_down
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 151
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_c
+      takeName: 04386_01J|04386_01J_c
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 76
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_f
+      takeName: 04386_01J|04386_01J_f
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_g
+      takeName: 04386_01J|04386_01J_g
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_h
+      takeName: 04386_01J|04386_01J_h
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_h_down
+      takeName: 04386_01J|04386_01J_h_down
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_i
+      takeName: 04386_01J|04386_01J_i
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 184
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_j
+      takeName: 04386_01J|04386_01J_j
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_k
+      takeName: 04386_01J|04386_01J_k
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_k_down
+      takeName: 04386_01J|04386_01J_k_down
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_l
+      takeName: 04386_01J|04386_01J_l
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 51
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_l_down
+      takeName: 04386_01J|04386_01J_l_down
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_m
+      takeName: 04386_01J|04386_01J_m
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.10084033
+        functionName: PlayAnimationEventSe
+        data: SE_EFF_04386_MA
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_m_down
+      takeName: 04386_01J|04386_01J_m_down
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_n
+      takeName: 04386_01J|04386_01J_n
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_n_down
+      takeName: 04386_01J|04386_01J_n_down
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_o
+      takeName: 04386_01J|04386_01J_o
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 42
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.10084033
+        functionName: PlayAnimationEventSe
+        data: SE_EFF_04386_OA
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_o_down
+      takeName: 04386_01J|04386_01J_o_down
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 84
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|04386_01J_y
+      takeName: 04386_01J|04386_01J_y
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|Action
+      takeName: 04386_01J|Action
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator01|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator01|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator01|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator01|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator01|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator01|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator02|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator02|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator02|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator02|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator02|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator02|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator03|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator03|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator03|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator03|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator03|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator03|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator04|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator04|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator04|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator04|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator04|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator04|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator05|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator05|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator05|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator05|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator05|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator05|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator06|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator06|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator06|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator06|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator06|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator06|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator07|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator07|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator07|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator07|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator07|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator07|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator08|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator08|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator08|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator08|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator08|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator08|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator09|04386_01J_i|Base Layer
+      takeName: 04386_01J|EFF_locator09|04386_01J_i|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 183
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator09|04386_01J_m_down|Base Layer
+      takeName: 04386_01J|EFF_locator09|04386_01J_m_down|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 92
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: 04386_01J|EFF_locator09|04386_01J_y|Base Layer
+      takeName: 04386_01J|EFF_locator09|04386_01J_y|Base Layer
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 67
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
