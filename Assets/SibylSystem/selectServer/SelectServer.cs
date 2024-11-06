@@ -25,7 +25,7 @@ public class SelectServer : WindowServantSP
         UIHelper.registEvent(gameObject, "exit_", onClickExit);
         UIHelper.registEvent(gameObject, "face_", onClickFace);
         UIHelper.registEvent(gameObject, "join_", onClickJoin);
-        name = Config.Get("name", "一秒一喵机会");
+        name = Config.Get("name", "今晚有宵夜吗");
         UIHelper.getByName<UIInput>(gameObject, "name_").value = name;
         list = UIHelper.getByName<UIPopupList>(gameObject, "history_");
         UIHelper.registEvent(gameObject, "history_", onSelected);

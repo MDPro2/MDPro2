@@ -30,7 +30,7 @@ public class Menu : WindowServantSP
         UIHelper.registEvent(gameObject, "exit_", onClickExit);
         UIHelper.registEvent(gameObject, "animation_", onClickAnimation);
         //MDPRO2 update
-        UIHelper.getByName<UILabel>(gameObject, "version_").text = "3.0.5";
+        UIHelper.getByName<UILabel>(gameObject, "version_").text = "3.0.6";
         Program.I().StartCoroutine(checkUpdate());
     }
 
