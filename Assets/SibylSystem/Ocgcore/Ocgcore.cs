@@ -1289,7 +1289,7 @@ public class Ocgcore : ServantWithCardDescription
                 gameField.currentPhase = GameField.ph.dp;
                 result = duelResult.disLink;
                 deckReserved = false;
-                isFirst = true;
+                // isFirst = true;
                 gameInfo.swaped = false;
                 logicalClearChain();
                 surrended = false;
