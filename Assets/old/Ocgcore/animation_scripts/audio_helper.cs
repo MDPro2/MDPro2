@@ -15,6 +15,10 @@ public class audio_helper : MonoBehaviour {
             audioMgr.Play();
             played = true;
         }
+        else if (audioMgr == null)
+        {
+            played = true;
+        }
 	}
     bool played = false;
     public void play(string u,float vol)
