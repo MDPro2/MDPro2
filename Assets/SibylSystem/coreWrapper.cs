@@ -245,7 +245,7 @@ namespace Percy
     {
         public int Code;
         public int Alias;
-        public fixed short Setcode[16];
+        // public fixed short Setcode[16];
         public UInt64 Setcode;
         public UInt64 _Setcode1;
         public UInt64 _Setcode2;
@@ -262,10 +262,10 @@ namespace Percy
 
         public void ConvertLongToSetCode(ulong value)
         {
-            Setcode[0] = (short)(value & 0xFFFF);
-            Setcode[1] = (short)((value >> 16) & 0xFFFF);
-            Setcode[2] = (short)((value >> 32) & 0xFFFF);
-            Setcode[3] = (short)((value >> 48) & 0xFFFF);
+            Setcode = (UInt64)(value & 0xFFFF);
+            _Setcode1 = (UInt64)((value >> 16) & 0xFFFF);
+            _Setcode2 = (UInt64)((value >> 32) & 0xFFFF);
+            _Setcode3 = (UInt64)((value >> 48) & 0xFFFF);
         }
     }
 

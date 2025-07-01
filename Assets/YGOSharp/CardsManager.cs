@@ -642,7 +642,7 @@ MDPro2官方交流群：167092257"
                                 Regex.Replace(item.Value.Desc, "「" + setNames[i] + "」", "miaowu", RegexOptions.IgnoreCase) != item.Value.Desc
                                 //|| Regex.Replace(item.Value.strSetName, setNames[i], "miaowu", RegexOptions.IgnoreCase) != item.Value.strSetName
                                 || (setCodes[i] != 0)
-                                    && (setCodes[i] - item.Value.Setcode == 0 || ~Math.Abs(setCodes[i] - item.Value.Setcode) == 0x999)
+                                    && (setCodes[i] == (int)item.Value.Setcode || ~Math.Abs(setCodes[i] - (int)item.Value.Setcode) == 0x999)
                                 )
                             {
                                 pass = true;
