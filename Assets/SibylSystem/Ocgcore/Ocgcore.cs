@@ -68,6 +68,7 @@ public class Ocgcore : ServantWithCardDescription
     private arrow Arrow;
     private autoForceChainHandlerType autoForceChainHandler = autoForceChainHandlerType.manDoAll;
 
+    private List<gameCard> chainCards = new List<gameCard>();
     private float camera_max = -15f;
 
     private float camera_min = -27.5f;
@@ -1072,11 +1073,20 @@ public class Ocgcore : ServantWithCardDescription
                 r.ReadChar();
                 int count = r.ReadByte();
                 int spcount = r.ReadByte();
-                int forced = r.ReadByte();
                 var hint0 = r.ReadInt32();
                 var hint1 = r.ReadInt32();
                 var ignore = false;
-                if (forced == 0)
+                bool forced = false;
+                for (int i = 0; i < count; i++)
+                {
+                    r.ReadByte(); // flag
+                    int f = r.ReadByte(); // forced
+                    if (f == 1) forced = true;
+                    r.ReadInt32(); // card id
+                    r.ReadGPS();
+                    r.ReadInt32(); // desc
+                }
+                if (!forced)
                 {
                     var condition = gameInfo.get_condition();
                     if (condition == gameInfo.chainCondition.no)
@@ -2140,6 +2150,7 @@ public class Ocgcore : ServantWithCardDescription
                 break;
             case GameMessage.ConfirmCards:
                 player = localPlayer(r.ReadByte());
+                bool skip_panel = r.ReadByte() == 1;
                 count = r.ReadByte();
                 for (var i = 0; i < count; i++)
                 {
@@ -3356,15 +3367,15 @@ public class Ocgcore : ServantWithCardDescription
                 player = localPlayer(r.ReadChar());
                 count = r.ReadByte();
                 int spcount = r.ReadByte();
-                int forced = r.ReadByte();
                 var hint0 = r.ReadInt32();
                 var hint1 = r.ReadInt32();
-                var chainCards = new List<gameCard>();
+                chainCards = new List<gameCard>();
+                int forceCount = 0;
                 for (var i = 0; i < count; i++)
                 {
-                    var flag = 0;
-                    if (((length_of_message - 12) / count) % 12 != 0)
-                        flag = r.ReadChar();
+                    int flag = r.ReadChar();
+                    int forced = r.ReadByte();
+                    forceCount += forced;
                     code = r.ReadInt32() % 1000000000;
                     gps = r.ReadGPS();
                     desc = GameStringManager.get(r.ReadInt32());
@@ -3378,6 +3389,7 @@ public class Ocgcore : ServantWithCardDescription
                         eff.flag = flag;
                         eff.ptr = i;
                         eff.desc = desc;
+                        eff.forced = forced > 0;
                         card.effects.Add(eff);
                     }
                 }
@@ -3386,7 +3398,7 @@ public class Ocgcore : ServantWithCardDescription
                 var handle_flag = 0;
 
                 //无强制发动的卡
-                if (forced == 0)
+                if (forceCount == 0)
                 {
                     if (spcount == 0)
                     {
@@ -3563,8 +3575,21 @@ public class Ocgcore : ServantWithCardDescription
                 if (handle_flag == 4)
                 {
                     //有一张强制发动的卡 回应--
+                    int answer = -1;
+                    foreach (var ccard in chainCards)
+                    {
+                        foreach (var effect in ccard.effects)
+                        {
+                            if (effect.forced)
+                            {
+                                answer = effect.ptr;
+                                break;
+                            }
+                        }
+                        if (answer >= 0) break;
+                    }
                     binaryMaster = new BinaryMaster();
-                    binaryMaster.writer.Write(chainCards[0].effects[0].ptr);
+                    binaryMaster.writer.Write(answer >= 0 ? answer : 0);
                     sendReturn(binaryMaster.get());
                 }
 
@@ -3748,6 +3773,11 @@ public class Ocgcore : ServantWithCardDescription
                         card.selectPtr = i;
                         card.levelForSelect_1 = para & 0xffff;
                         card.levelForSelect_2 = para >> 16;
+                        if ((para & 0x80000000) > 0)
+                        {
+                            card.levelForSelect_1 = para & 0x7fffffff;
+                            card.levelForSelect_2 = card.levelForSelect_1;
+                        }
                         if (card.levelForSelect_2 == 0) card.levelForSelect_2 = card.levelForSelect_1;
                         allCardsInSelectMessage.Add(card);
                         cardsMustBeSelected.Add(card);
@@ -3769,6 +3799,11 @@ public class Ocgcore : ServantWithCardDescription
                         card.selectPtr = i;
                         card.levelForSelect_1 = para & 0xffff;
                         card.levelForSelect_2 = para >> 16;
+                        if ((para & 0x80000000) > 0)
+                        {
+                            card.levelForSelect_1 = para & 0x7fffffff;
+                            card.levelForSelect_2 = card.levelForSelect_1;
+                        }
                         if (card.levelForSelect_2 == 0) card.levelForSelect_2 = card.levelForSelect_1;
                         allCardsInSelectMessage.Add(card);
                         card.forSelect = true;
@@ -4038,6 +4073,7 @@ public class Ocgcore : ServantWithCardDescription
             case GameMessage.ConfirmCards:
                 //Debug.Log("GameMessage.ConfirmCards");
                 player = localPlayer(r.ReadByte());
+                bool skip_panel = r.ReadByte() == 1;
                 count = r.ReadByte();
                 var t2 = 0;
                 var t3 = 0;
@@ -4125,6 +4161,12 @@ public class Ocgcore : ServantWithCardDescription
                     Program.I().cardSelection.setTitle(InterString.Get("请确认[?]张卡片。", t3.ToString()));
                     if (inIgnoranceReplay() || inTheWorld())
                     {
+                        t2 = 0;
+                        clearResponse();
+                    }
+                    else if (skip_panel)
+                    {
+                        Sleep(t2);
                         t2 = 0;
                         clearResponse();
                     }
@@ -9229,8 +9271,21 @@ public class Ocgcore : ServantWithCardDescription
                         autoForceChainHandler = autoForceChainHandlerType.autoHandleAll;
                         try
                         {
+                            int answer = -1;
+                            foreach (var card in chainCards)
+                            {
+                                foreach (var effect in card.effects)
+                                {
+                                    if (effect.forced)
+                                    {
+                                        answer = effect.ptr;
+                                        break;
+                                    }
+                                }
+                                if (answer >= 0) break;
+                            }
                             binaryMaster = new BinaryMaster();
-                            binaryMaster.writer.Write(0);
+                            binaryMaster.writer.Write(answer >= 0 ? answer : 0);
                             sendReturn(binaryMaster.get());
                         }
                         catch (Exception e)

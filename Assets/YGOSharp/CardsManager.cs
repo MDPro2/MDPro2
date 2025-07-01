@@ -997,12 +997,12 @@ MDPro2官方交流群：167092257"
                  != ((int)CardType.Monster + (int)CardType.Token));
         }
 
-        public static bool IfSetCard(int setCodeToAnalyse, long setCodeFromCard)
+        public static bool IfSetCard(int setCodeToAnalyse, ulong setCodeFromCard)
         {
             bool res = false;
-            int settype = setCodeToAnalyse & 0xfff;
-            int setsubtype = setCodeToAnalyse & 0xf000;
-            long sc = setCodeFromCard;
+            uint settype = (uint)setCodeToAnalyse & 0xfff;
+            uint setsubtype = (uint)setCodeToAnalyse & 0xf000;
+            ulong sc = setCodeFromCard;
             while (sc != 0)
             {
                 if ((sc & 0xfff) == settype && (sc & 0xf000 & setsubtype) == setsubtype)

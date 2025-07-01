@@ -36,6 +36,7 @@ public class Effect
     public string desc;
     public int flag;
     public int ptr;
+    public bool forced = false;
 }
 
 public class gameCard : OCGobject

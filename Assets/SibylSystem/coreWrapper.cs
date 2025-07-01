@@ -245,7 +245,10 @@ namespace Percy
     {
         public int Code;
         public int Alias;
-        public fixed short Setcode[16];
+        public UInt64 Setcode;
+        public UInt64 _Setcode1;
+        public UInt64 _Setcode2;
+        public UInt64 _Setcode3;
         public int Type;
         public int Level;
         public int Attribute;
@@ -335,7 +338,9 @@ namespace Percy
         public static extern IntPtr create_duel(uint seed);
 
         [DllImport("ocgcore", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.Cdecl)]
-        public static extern void start_duel(IntPtr pduel, int options);
+        public static extern IntPtr create_duel_v2(UInt32[] seeds);
+        [DllImport("ocgcore", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.Cdecl)]
+        public static extern void start_duel(IntPtr pduel, UInt32 options);
 
         [DllImport("ocgcore", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.Cdecl)]
         public static extern int get_ai_going_first_second(IntPtr pduel, IntPtr deckname);
@@ -389,7 +394,7 @@ namespace Percy
         public static extern int query_field_info(IntPtr pduel, IntPtr buf);
 
         [DllImport("ocgcore", CharSet = CharSet.Unicode, CallingConvention = CallingConvention.Cdecl)]
-        public static extern int preload_script(IntPtr pduel, IntPtr script, int len);
+        public static extern int preload_script(IntPtr pduel, IntPtr script);
 
         [UnmanagedFunctionPointer(CallingConvention.Cdecl)]
         private delegate IntPtr ScriptReader(string scriptName, int* len);
@@ -770,11 +775,11 @@ namespace Percy
                     move(1);
                     count = move(1);
                     move(1);
-                    move(1);
                     move(4);
                     move(4);
                     for (var i = 0; i < count; i++)
                     {
+                        move(1);
                         move(1);
                         move(4);
                         move(4);
@@ -811,6 +816,7 @@ namespace Percy
                     move(move(1) * 7);
                     break;
                 case GameMessage.ConfirmCards:
+                    move(1);
                     move(1);
                     move(move(1) * 7);
                     break;
@@ -1149,8 +1155,8 @@ namespace Percy
             isFirst = true;
             dll.set_player_info(duel, 0, 8000, 5, 1);
             dll.set_player_info(duel, 1, 8000, 5, 1);
-            var reult = dll.preload_script(duel, getPtrString(path), 0);
-            if (reult == 0) return false;
+            dll.preload_script(duel, getPtrString(path));
+
             dll.start_duel(duel, 0);
             Refresh();
             new Thread(Process).Start();
@@ -1163,18 +1169,11 @@ namespace Percy
             isFirst = playerGoFirst;
             dll.set_player_info(duel, 0, life, 5, 1);
             dll.set_player_info(duel, 1, life, 5, 1);
-            var reult = 0;
-            for (var i = 0; i < 10; i++)
-            {
-                reult = dll.preload_script(duel, getPtrString(aiScript), 0);
-                if (reult > 0) break;
-            }
-
-            if (reult == 0) return false;
+            dll.preload_script(duel, getPtrString(aiScript));
             addDeck(playerDek, playerGoFirst ? 0 : 1, !unrand);
             addDeck(aiDeck, playerGoFirst ? 1 : 0, true);
             dll.set_ai_id(duel, playerGoFirst ? 1 : 0);
-            var opt = 0;
+            UInt32 opt = 0;
             opt |= 0x80;
             if (unrand) opt |= 0x10;
             var master = new BinaryMaster();
@@ -1187,7 +1186,7 @@ namespace Percy
             master.writer.Write((ushort) dll.query_field_count(duel, 1, 0x1));
             master.writer.Write((ushort) dll.query_field_count(duel, 1, 0x40));
             sendToPlayer(master.get());
-            dll.start_duel(duel, opt | (mr << 16));
+            dll.start_duel(duel, opt | (UInt32)(mr << 16));
             Refresh();
             new Thread(Process).Start();
             return true;
@@ -1221,6 +1220,7 @@ namespace Percy
             s = list.ToArray();
             var ptrFileName = Marshal.AllocHGlobal(s.Length);
             Marshal.Copy(s, 0, ptrFileName, s.Length);
+            Marshal.WriteByte(ptrFileName, s.Length, 0);
             return ptrFileName;
         }
 
@@ -1326,8 +1326,15 @@ namespace Percy
             yrp3dbuilder = new BinaryWriter(stream);
             sendToPlayer(yrp.getNamePacket());
             dll.end_duel(duel);
-            var mtrnd = new MersenneTwister(yrp.Seed);
-            duel = dll.create_duel(mtrnd.genrand_Int32());
+            if (yrp.ID == 0x32707279) // REPLAY_ID_YRP2
+            {
+                duel = dll.create_duel_v2(yrp.SeedsV2);
+            }
+            else
+            {
+                Meisui.Random.MersenneTwister mtrnd = new Meisui.Random.MersenneTwister(yrp.Seed);
+                duel = dll.create_duel(mtrnd.genrand_Int32());
+            }
             godMode = true;
             isFirst = true;
             dll.set_player_info(duel, 0, yrp.StartLp, yrp.StartHand, yrp.DrawCount);
@@ -1431,10 +1438,11 @@ namespace Percy
         public List<byte[]> gameData = new List<byte[]>();
         public int Hash = 0;
         public int ID = 0;
-        public int opt = 0;
+        public uint opt = 0;
         public List<PlayerData> playerData = new List<PlayerData>();
         public byte[] Props = new byte[8];
         public uint Seed = 0;
+        public uint[] SeedsV2 = new uint[8];
         public int StartHand = 0;
         public int StartLp = 0;
         public int Version = 0;
