@@ -10,15 +10,14 @@ public class audio_helper : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (played == false && audioMgr != null && audioMgr.clip != null && !audioMgr.isPlaying && audioMgr.clip.loadState == AudioDataLoadState.Loaded)
+        if (audioMgr != null)
         {
-            audioMgr.Play();
-            played = true;
+            if (played == false && audioMgr != null && audioMgr.clip != null && !audioMgr.isPlaying && audioMgr.clip.loadState == AudioDataLoadState.Loaded)
+            {
+                audioMgr.Play();
+            }
         }
-        else if (audioMgr == null)
-        {
-            played = true;
-        }
+        played = true;
 	}
     bool played = false;
     public void play(string u,float vol)
