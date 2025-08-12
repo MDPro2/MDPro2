@@ -203,7 +203,7 @@ public class SelectServer : WindowServantSP
     {
         name = Name;
         Config.Set("name", name);
-        if (ipString == "" || portString == "")
+        if (ipString == "")
         {
             RMSshow_onlyYes("", InterString.Get("非法输入！请检查输入的主机名。"), null);
         }
@@ -220,6 +220,39 @@ public class SelectServer : WindowServantSP
                 for (var i = 0; i < list.items.Count; i++) all += list.items[i] + "\r\n";
                 File.WriteAllText("config/hosts.conf", all);
                 printFile(false);
+                if (portString == "") {
+                    System.Diagnostics.Process srv = new System.Diagnostics.Process();
+                    srv.StartInfo.UseShellExecute = false;
+                    srv.StartInfo.FileName = "cmd.exe";
+                    srv.StartInfo.WorkingDirectory = "./";
+                    srv.StartInfo.Arguments = $"/C nslookup -type=SRV _ygopro._tcp.{ipString}";
+                    srv.StartInfo.CreateNoWindow = true;
+                    srv.StartInfo.RedirectStandardOutput = true;
+                    srv.Start();
+                    string output = srv.StandardOutput.ReadToEnd();
+                    srv.WaitForExit();
+                    srv.Close();
+                    string ip = "";
+                    string port = "";
+                    foreach (string line in output.Split('\n')) {
+                        string[] g = line.Trim().Replace(" ", "").Split("=");
+                        if (!line.Contains("=") || g.Length < 2) continue;
+                        if (line.Contains("port"))
+                            port = g[1];
+                        else if (line.Contains("svr hostname"))
+                            ip = g[1];
+                        if (!string.IsNullOrEmpty(ip) && !string.IsNullOrEmpty(port))
+                            break;
+                    }
+                    Debug.Log(ip);
+                    Debug.Log(port);
+                    if (!string.IsNullOrEmpty(ip) && !string.IsNullOrEmpty(port)) {
+                        ipString = ip;
+                        portString = port;
+                    } else {
+                        portString = "7911";
+                    }
+                }
                 new Thread(() => { TcpHelper.join(ipString, name, portString, pswString, versionString); }).Start();
             }
             else
